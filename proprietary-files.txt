@@ -1,3 +1,5 @@
+# Unpinned blobs from begonia-user 10 QP1A.190711.020 V12.0.6.0.QGGMIXM release-keys
+
 # Audio
 vendor/etc/audio_param/AudioParamOptions.xml
 vendor/etc/audio_param/BtInfo_AudioParam.xml
@@ -328,6 +330,7 @@ vendor/lib/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom1.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom2.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_portrait_capture_full.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_portrait_preview_full.so
+vendor/lib/libCamera_s5kgw1ofilmmipiraw_QQ_Capture.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_QQ_Capture_ChatMode.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_Reserved.so
 vendor/lib/libCamera_s5kgw1ofilmmipiraw_Scene_Capture.so
@@ -368,10 +371,12 @@ vendor/lib/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom1.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom2.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_portrait_capture_full.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_portrait_preview_full.so
+vendor/lib/libCamera_s5kgw1sunnymipiraw_QQ_Capture.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_QQ_Capture_ChatMode.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Reserved.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture_64.so
+vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Capture_HWNR.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom1.so
 vendor/lib/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom2.so
@@ -570,6 +575,7 @@ vendor/lib64/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom1.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_MFSR_Scene_Capture_Zoom2.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_portrait_capture_full.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_portrait_preview_full.so
+vendor/lib64/libCamera_s5kgw1ofilmmipiraw_QQ_Capture.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_QQ_Capture_ChatMode.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_Reserved.so
 vendor/lib64/libCamera_s5kgw1ofilmmipiraw_Scene_Capture.so
@@ -610,10 +616,12 @@ vendor/lib64/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom1.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_MFSR_Scene_Capture_Zoom2.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_portrait_capture_full.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_portrait_preview_full.so
+vendor/lib64/libCamera_s5kgw1sunnymipiraw_QQ_Capture.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_QQ_Capture_ChatMode.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Reserved.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Capture.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Capture_64.so
+vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Capture_HWNR.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Preview.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom1.so
 vendor/lib64/libCamera_s5kgw1sunnymipiraw_Scene_Preview_Zoom2.so
@@ -724,7 +732,7 @@ vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
-# Firmware | From begonia QP1A.190711.020 V12.0.3.0.QGGMIXM release-keys
+# Firmware
 vendor/firmware/fm_cust.cfg
 vendor/firmware/FT8719_G7_TestINI.ini
 vendor/firmware/gt1151_default_firmware1.img
@@ -756,7 +764,7 @@ vendor/firmware/soc1_0_ram_mcu_2a_1_hdr.bin
 vendor/firmware/soc1_0_ram_wifi_2a_1_hdr.bin
 vendor/firmware/tfa98xx.cnt
 vendor/firmware/txpowerctrl.cfg
-vendor/firmware/wifi.cfg|00b8e7e7db1006d7f9af3e9711c2325a4f8c7ee3
+vendor/firmware/wifi.cfg
 vendor/firmware/WIFI_RAM_CODE_soc1_0_2a_1.bin
 vendor/firmware/WMT_SOC.cfg
 
@@ -792,14 +800,15 @@ vendor/lib64/libOpenCL.so
 -product/priv-app/HotwordEnrollmentXGoogleCORTEXM4/HotwordEnrollmentXGoogleCORTEXM4.apk
 
 # Kernel-Modules
-vendor/lib/modules/bt_drv.ko:vendor/lib/modules_prebuilt/bt_drv.ko|15ba0859c16f0d7288a70acc3542dc088f6982a2
-vendor/lib/modules/fmradio_drv.ko:vendor/lib/modules_prebuilt/fmradio_drv.ko|0092c380c2a139cb21ca2a55f0302f0c3d525cfb
-vendor/lib/modules/fpsgo.ko:vendor/lib/modules_prebuilt/fpsgo.ko|fdd78c7a20fb3461e47fafd5d5ee890090d572a7
-vendor/lib/modules/gps_drv.ko:vendor/lib/modules_prebuilt/gps_drv.ko|33abde1b511bff909537fc252569328f423892ce
-vendor/lib/modules/met.ko:vendor/lib/modules_prebuilt/met.ko|ef69a50407256e85d5a9f312982255b099da71ab
-vendor/lib/modules/wlan_drv_gen4m.ko:vendor/lib/modules_prebuilt/wlan_drv_gen4m.ko|656fa28ba6ccba920e93c936970394711d485abd
-vendor/lib/modules/wmt_chrdev_wifi.ko:vendor/lib/modules_prebuilt/wmt_chrdev_wifi.ko|177d4e3f052d5b9be2cb026f166b4ab292c129d0
-vendor/lib/modules/wmt_drv.ko:vendor/lib/modules_prebuilt/wmt_drv.ko|f7f616600567c5e069973ce92563fe17472d1da2
+vendor/lib/modules/bt_drv.ko:vendor/lib/modules_prebuilt/bt_drv.ko
+vendor/lib/modules/fmradio_drv.ko:vendor/lib/modules_prebuilt/fmradio_drv.ko
+vendor/lib/modules/fpsgo.ko:vendor/lib/modules_prebuilt/fpsgo.ko
+vendor/lib/modules/gps_drv.ko:vendor/lib/modules_prebuilt/gps_drv.ko
+vendor/lib/modules/met.ko:vendor/lib/modules_prebuilt/met.ko
+vendor/lib/modules/udc_lib.ko:vendor/lib/modules_prebuilt/udc_lib.ko
+vendor/lib/modules/wlan_drv_gen4m.ko:vendor/lib/modules_prebuilt/wlan_drv_gen4m.ko
+vendor/lib/modules/wmt_chrdev_wifi.ko:vendor/lib/modules_prebuilt/wmt_chrdev_wifi.ko
+vendor/lib/modules/wmt_drv.ko:vendor/lib/modules_prebuilt/wmt_drv.ko
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service
@@ -841,7 +850,7 @@ vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.log@1.0-service
-vendor/bin/hw/vendor.mediatek.hardware.mms@1.3-service
+vendor/bin/hw/vendor.mediatek.hardware.mms@1.5-service
 vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
@@ -853,7 +862,7 @@ vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.dplanner@2.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.log@1.0-service.rc
-vendor/etc/init/vendor.mediatek.hardware.mms@1.3-service.rc
+vendor/etc/init/vendor.mediatek.hardware.mms@1.5-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
@@ -865,7 +874,7 @@ vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.mms@1.3-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so
@@ -923,6 +932,8 @@ vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib/vendor.mediatek.hardware.mms@1.2.so
 vendor/lib/vendor.mediatek.hardware.mms@1.3.so
+vendor/lib/vendor.mediatek.hardware.mms@1.4.so
+vendor/lib/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
@@ -941,7 +952,7 @@ vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.mms@1.3-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.pq@2.3-impl.so
@@ -1046,6 +1057,8 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.2.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.3.so
+vendor/lib64/vendor.mediatek.hardware.mms@1.4.so
+vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.1.so
@@ -1119,7 +1132,7 @@ lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
 lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
-# NFC | From begonia QP1A.190711.020 V12.0.3.0.QGGMIXM release-keys
+# NFC
 vendor/bin/pnscr
 vendor/etc/nxp/Phone_bt_bt.bin
 vendor/etc/nxp/Phone_hsmic_hs.bin
@@ -1176,7 +1189,7 @@ vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-neuron-ann
 vendor/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc
 vendor/etc/init/android.hardware.neuralnetworks@1.1-service-neuron-ann.rc
 
-# Power (Hardware) | From begonia QP1A.190711.020 V12.0.3.0.QGGMIXM release-keys
+# Power (Hardware)
 vendor/bin/hw/power_legacy_test_v_1_0
 vendor/bin/hw/power_native_test_v_1_0
 vendor/etc/powercontable.xml
@@ -1187,7 +1200,7 @@ vendor/lib/hw/power.mt6785.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.mt6785.so
 
-# Power (Interfaces - mtkpower) | From begonia QP1A.190711.020 V12.0.3.0.QGGMIXM release-keys
+# Power (Interfaces - mtkpower)
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
@@ -1196,11 +1209,11 @@ vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
 
-# Power (Interfaces - android) | From begonia QP1A.190711.020 V12.0.3.0.QGGMIXM release-keys
+# Power (Interfaces - android)
 vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so
 vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so
 
-# Power (Interfaces - vendor.mediatek) | From begonia QP1A.190711.020 V12.0.3.0.QGGMIXM release-keys
+# Power (Interfaces - vendor.mediatek)
 vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so
 vendor/lib/vendor.mediatek.hardware.power@2.0.so
 vendor/lib/vendor.mediatek.hardware.power@2.1.so
@@ -1209,7 +1222,7 @@ vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 vendor/lib64/vendor.mediatek.hardware.power@2.1.so
 
-# Power (Libraries) | From begonia QP1A.190711.020 V12.0.3.0.QGGMIXM release-keys
+# Power (Libraries)
 vendor/lib/libpowerhal.so
 vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib64/libpowerhal.so
@@ -1233,7 +1246,7 @@ vendor/bin/SoterProvisioningTool
 vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
 vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
 
-# Thermal | From begonia QP1A.190711.020 V12.0.3.0.QGGMIXM release-keys
+# Thermal
 vendor/bin/mi_thermald
 vendor/bin/thermal
 vendor/bin/thermalloadalgod
@@ -1256,7 +1269,7 @@ vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
 vendor/lib/libthermalalgo.so
 
-# Thermal-Hardware | From begonia QP1A.190711.020 V12.0.3.0.QGGMIXM release-keys
+# Thermal-Hardware
 vendor/lib/hw/thermal.mt6785.so
 vendor/lib64/hw/thermal.mt6785.so
 
@@ -1479,7 +1492,7 @@ vendor/etc/aurisys_param/FV-SAM-MTKXX.dat
 vendor/etc/aurisys_param/Speech_AudioParam.xml
 vendor/etc/csot_fhd_nt36672a_dsi_vdo_lcm_drv_mi.xml
 vendor/etc/default_pd_calibration.bin
-vendor/etc/device_features/begoniain.xml
+vendor/etc/device_features/begonia.xml
 vendor/etc/DSM.xml
 vendor/etc/DSM_config.xml
 vendor/etc/ebbg_fhd_ft8719_dsi_vdo_lcm_drv_mi.xml
@@ -2312,7 +2325,6 @@ vendor/thh/ta/020b0000000000000000000000000000.ta
 vendor/thh/ta/020f0000000000000000000000000000.ta
 vendor/thh/ta/05110000000000000000000000000000.ta
 vendor/thh/ta/05120000000000000000000000000000.ta
-vendor/thh/ta/06090000000000000000000000000000.ta
 vendor/thh/ta/07060000000000000000000000007169.ta
 vendor/thh/ta/07407000000000000000000000000000.ta
 vendor/thh/ta/08010203000000000000000000000000.ta
@@ -2320,7 +2332,6 @@ vendor/thh/ta/08020000000000000000000000007169.ta
 vendor/thh/ta/08030000000000000000000000000000.ta
 vendor/thh/ta/08040000000000000000000000003419.ta
 vendor/thh/ta/08050000000000000000000000003419.ta
-vendor/thh/ta/08110000000000000000000000000000.ta
 vendor/thh/ta/09010000000000000000000000000000.ta
 vendor/thh/ta/0f5eed3c3b5a47afacca69a84bf0efad.ta
 vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta
@@ -2331,7 +2342,7 @@ vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
 vendor/thh/ta/7b66512021214487ba710a51d7ea78fe.ta
 vendor/thh/ta/85f630e0f0964c5fa2cc268ce04e3da3.ta
 vendor/thh/ta/86f623f6a2994dfdb560ffd3e5a62c29.ta
-vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta|97068dc079e7d3029cbb5ac715d194f99e55c145
+vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
 vendor/thh/ta/9073f03a9618383bb1856eb3f990babd.ta
 vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta
 vendor/thh/ta/98fb95bcb4bf42d26473eae48690d7ea.ta
