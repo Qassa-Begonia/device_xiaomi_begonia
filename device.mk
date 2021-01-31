@@ -195,8 +195,9 @@ PRODUCT_PACKAGES += \
     setup_headsetmic2headphone.sh \
     setup_mainmic2headphone.sh \
     setup_topmic2headphone.sh \
-    teardown_loopback.sh \
-    init.aee.rc \
+    teardown_loopback.sh
+
+PRODUCT_PACKAGES += \
     init.ago.rc \
     init.connectivity.rc \
     init.mi_thermald.rc \
