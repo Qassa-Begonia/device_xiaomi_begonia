@@ -21,10 +21,6 @@ $(call inherit-product, device/xiaomi/begonia/device.mk)
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 USE_GAPPS := true
 
-# Screen density
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
