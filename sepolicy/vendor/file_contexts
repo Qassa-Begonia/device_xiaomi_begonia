@@ -17,6 +17,9 @@
 /dev/nq-nci                      u:object_r:nfc_device:s0
 /dev/goodix_fp                   u:object_r:fp_device:s0
 
+# FPS Info
+/sys/module/primary_display/parameters/display_framerate_main      u:object_r:sysfs_fpsinfo:s0
+
 # HALs
 /system/bin/netutils-wrapper-1.0                 u:object_r:netutils_wrapper_exec_bin:s0
 /(system\/vendor|vendor)/bin/bip		 u:object_r:bip_exec:s0
