@@ -33,6 +33,16 @@ ro.displayfeature.histogram.enable=false
 sys.displayfeature_hidl=true
 sys.displayfeature.entry.enable=true
 
+# Dex
+persist.bg.dexopt.enable=true
+dalvik.vm.dexopt.secondary=true
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.boot=verify
+pm.dexopt.first-boot=quicken
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
+dalvik.vm.dex2oat-threads=6
+
 # IPO
 sys.ipo.disable=1
 
