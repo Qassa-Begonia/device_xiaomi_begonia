@@ -1,0 +1,14 @@
+[
+ {
+   "repository" : "android_device_mediatek_begonia",
+   "target_path": "device/mediatek/sepolicy"
+ },
+ {
+   "repository" : "android_kernel_xiaomi_begonia",
+   "target_path": "kernel/xiaomi/begonia"
+ },
+ {
+   "repository" : "android_vendor_xiaomi_begonia",
+   "target_path": "vendor/xiaomi/begonia"
+ }
+]
