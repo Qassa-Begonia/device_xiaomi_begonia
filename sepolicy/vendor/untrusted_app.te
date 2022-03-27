@@ -1,0 +1,5 @@
+allow untrusted_app sysfs_bus:dir search;
+allow untrusted_app sysfs_thermal:dir search;
+
+# Purpose: Allow untrusted_app to execute app_data_file
+allow untrusted_app app_data_file:file execute;
