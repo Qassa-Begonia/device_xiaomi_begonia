@@ -1913,7 +1913,6 @@ vendor/etc/DSM.xml
 vendor/etc/DSM_config.xml
 vendor/etc/FV-SAM-MTK2.dat
 vendor/etc/agps_profiles_conf2.xml
-vendor/etc/aurisys_config.xml
 vendor/etc/aurisys_config_hifi3.xml
 vendor/etc/csot_fhd_nt36672a_dsi_vdo_lcm_drv_mi.xml
 vendor/etc/default_pd_calibration.bin
